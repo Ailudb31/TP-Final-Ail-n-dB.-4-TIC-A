@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5596965948504441546
+--- !u!1 &6541238799725964312
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,41 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5596965948504874730}
-  m_Layer: 0
-  m_Name: Cantisano_Dante_48111242
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5596965948504874730
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5596965948504441546}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.06, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 5596965948504874732}
-  - {fileID: 5596965948504874734}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5596965948504441548
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5596965948504874732}
-  - component: {fileID: 5596965948505677512}
-  - component: {fileID: 5596965948506643464}
+  - component: {fileID: 6541238799726063672}
+  - component: {fileID: 6541238799724769308}
+  - component: {fileID: 6541238799723770588}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -50,35 +18,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5596965948504874732
+--- !u!4 &6541238799726063672
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5596965948504441548}
+  m_GameObject: {fileID: 6541238799725964312}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 1.1931541, z: 0}
   m_LocalScale: {x: 67.7137, y: 67.7137, z: 46.18923}
   m_Children: []
-  m_Father: {fileID: 5596965948504874730}
+  m_Father: {fileID: 6541238799726063678}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &5596965948505677512
+--- !u!33 &6541238799724769308
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5596965948504441548}
-  m_Mesh: {fileID: 4300000, guid: 87317f861d4adea48ae95ab7f70a8870, type: 3}
---- !u!23 &5596965948506643464
+  m_GameObject: {fileID: 6541238799725964312}
+  m_Mesh: {fileID: 4300000, guid: 3c595746420c7af41aeab1d7cb218b57, type: 3}
+--- !u!23 &6541238799723770588
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5596965948504441548}
+  m_GameObject: {fileID: 6541238799725964312}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -89,7 +57,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 87317f861d4adea48ae95ab7f70a8870, type: 3}
+  - {fileID: 2100000, guid: 0215c29e91c177c429877b5a725664f2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -109,7 +77,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!1 &5596965948504441550
+--- !u!1 &6541238799725964314
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,9 +85,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5596965948504874734}
-  - component: {fileID: 5596965948505677514}
-  - component: {fileID: 5596965948506643466}
+  - component: {fileID: 6541238799726063674}
+  - component: {fileID: 6541238799724769310}
+  - component: {fileID: 6541238799723770590}
   m_Layer: 0
   m_Name: Cylinder.001
   m_TagString: Untagged
@@ -127,35 +95,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5596965948504874734
+--- !u!4 &6541238799726063674
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5596965948504441550}
+  m_GameObject: {fileID: 6541238799725964314}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 1.461366, z: 0}
   m_LocalScale: {x: 76.74908, y: 76.74908, z: 11.6660385}
   m_Children: []
-  m_Father: {fileID: 5596965948504874730}
+  m_Father: {fileID: 6541238799726063678}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &5596965948505677514
+--- !u!33 &6541238799724769310
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5596965948504441550}
-  m_Mesh: {fileID: 4300002, guid: 87317f861d4adea48ae95ab7f70a8870, type: 3}
---- !u!23 &5596965948506643466
+  m_GameObject: {fileID: 6541238799725964314}
+  m_Mesh: {fileID: 4300002, guid: 3c595746420c7af41aeab1d7cb218b57, type: 3}
+--- !u!23 &6541238799723770590
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5596965948504441550}
+  m_GameObject: {fileID: 6541238799725964314}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -166,7 +134,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100002, guid: 87317f861d4adea48ae95ab7f70a8870, type: 3}
+  - {fileID: 2100000, guid: 0215c29e91c177c429877b5a725664f2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -186,3 +154,35 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &6541238799725964318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6541238799726063678}
+  m_Layer: 0
+  m_Name: Cantisano_Dante_48111242
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6541238799726063678
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6541238799725964318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6541238799726063672}
+  - {fileID: 6541238799726063674}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

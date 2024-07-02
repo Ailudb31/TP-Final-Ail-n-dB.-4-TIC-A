@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4489652580176327905
+--- !u!1 &9140163725279371193
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4489652580176423105}
-  - component: {fileID: 4489652580177193189}
-  - component: {fileID: 4489652580178324005}
+  - component: {fileID: 9140163725279855513}
+  m_Layer: 0
+  m_Name: "Cid_Beltr\xE1n_48111930"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9140163725279855513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9140163725279371193}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.0000014731, y: 1.7213, z: 2.0153}
+  m_LocalScale: {x: 0.14778544, y: 0.14778544, z: 0.14778544}
+  m_Children:
+  - {fileID: 9140163725279855519}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9140163725279371199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9140163725279855519}
+  - component: {fileID: 9140163725276464059}
+  - component: {fileID: 9140163725277430139}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -18,35 +49,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4489652580176423105
+--- !u!4 &9140163725279855519
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4489652580176327905}
+  m_GameObject: {fileID: 9140163725279371199}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 5.725254, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 5.3888516}
   m_Children: []
-  m_Father: {fileID: 4489652580176423111}
+  m_Father: {fileID: 9140163725279855513}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &4489652580177193189
+--- !u!33 &9140163725276464059
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4489652580176327905}
+  m_GameObject: {fileID: 9140163725279371199}
   m_Mesh: {fileID: 4300000, guid: 5e84538df3f7cc0428fc254d75452450, type: 3}
---- !u!23 &4489652580178324005
+--- !u!23 &9140163725277430139
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4489652580176327905}
+  m_GameObject: {fileID: 9140163725279371199}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -57,7 +88,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e84538df3f7cc0428fc254d75452450, type: 3}
+  - {fileID: 2100000, guid: 0215c29e91c177c429877b5a725664f2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -77,34 +108,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!1 &4489652580176327911
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4489652580176423111}
-  m_Layer: 0
-  m_Name: "Cid_Beltr\xE1n_48111930"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4489652580176423111
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4489652580176327911}
-  m_LocalRotation: {x: -0, y: 0.6351666, z: -0, w: 0.7723752}
-  m_LocalPosition: {x: -0.64805657, y: -2.3, z: -0.55706555}
-  m_LocalScale: {x: 0.27931, y: 0.27931, z: 0.27931}
-  m_Children:
-  - {fileID: 4489652580176423105}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 78.865005, z: 0}
